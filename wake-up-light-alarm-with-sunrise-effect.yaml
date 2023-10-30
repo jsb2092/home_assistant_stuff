@@ -79,7 +79,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://gist.github.com/sbyx/96c43b13b90ae1c35b872313ba1d2d2d
+  source_url: https://github.com/jsb2092/home_assistant_stuff/blob/main/wake-up-light-alarm-with-sunrise-effect.yaml
 variables:
   light_entity: !input 'light_entity'
   sensor: !input 'timestamp_sensor'
