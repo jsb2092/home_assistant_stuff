@@ -7,7 +7,7 @@ blueprint:
     light_entity:
       name: Wake-up light entity
       description: The light to control. Turning it off during the sunrise will keep
-        it off. Color temperature range is auto-detected.
+        it off. 
       selector:
         entity:
           domain: light
