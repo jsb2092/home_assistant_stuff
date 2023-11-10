@@ -135,5 +135,5 @@ action:
           entity_id: !input 'light_entity'
 - choose: []
   default: !input 'post_sunrise_actions'
-mode: restart
+mode: single
 max_exceeded: silent
